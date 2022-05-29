@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/global.css">
+    <title>Jlackwood.dev</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main-container">
+        <div id="jlackwoodCarousel" class="carousel slide" data-bs-interval="false">
+        <!-- Carousel slide indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#jlackwoodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="About slide"></button>
+            <button type="button" data-bs-target="#jlackwoodCarousel" data-bs-slide-to="1" aria-label="Portfolio slide"></button>
+            <button type="button" data-bs-target="#jlackwoodCarousel" data-bs-slide-to="2" aria-label="Contact slide"></button>
+        </div>
+        <!-- inner carousel content -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="about">
+                    <img id="memoji" src="./media/memoji.PNG" alt="Johnny's memoji">
+                    <h1>Johnny Lackwood</h1>
+                    <p>👋🏽 I am a passionate web developer based in Austin, Texas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p>Test2</p>
+                <!-- <img src="./media/memoji.PNG" alt="Johnny's memoji">
+                <h1>Johnny Lackwood</h1>
+                <p>👋🏽 I am a passionate web developer based in Austin, Texas.</p> -->
+            </div>
+            <div class="carousel-item">
+                <p>Test3</p>
+            </div>
+        </div>
+        <!-- carousel next/prev buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#jlackwoodCarousel" data-bs-slide="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#0E3353"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H6M12 5l-7 7 7 7" />
+            </svg>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#jlackwoodCarousel" data-bs-slide="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#0E3353"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h13M12 5l7 7-7 7"/>
+            </svg>
+        </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+</html>
