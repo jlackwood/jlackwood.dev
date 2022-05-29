@@ -1,1 +1,79 @@
+/* STYLING FOR INTRO TILE W MEMOJI */
+.main-container{
+    margin: 15vh 3%;
+}
+/* STYLING FOR CAROUSEL SECTION */
+.main-container > div {
+    background-color: ghostwhite;
+    border-radius: 50px;
+    min-height: 70vh;
+}
+/* COLOR FOR CAROUSEL INDICATORS */
+.carousel .carousel-indicators [data-bs-target] {
+    background-color: #0E3353;
+    width:100px;
+    height:10px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.carousel-item {
 
+}
+.carousel-inner{
+    padding: 10% 12%;
+
+}
+.about{
+    display: flex;
+    text-align: center;
+
+    color: #0E3353;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    font-size: 5.3em;
+    margin-bottom: 5%;
+}
+.about p {
+    font-size: 4em;
+    text-align: center;
+}
+#memoji {
+    border:solid silver;
+    border-radius:50%;
+    background-color:#0E3353;
+    margin-bottom: 15%;
+}
+
+/* TEXT COLORS USED THROGHOUT SITE */
+
+/* BACKGROUND COLOR/TEXT FOR ENTIRE SITE */
+body {
+    background-color: #0E3353 !important;
+}
+@media (max-width: 768px) {
+    .main-container {
+        
+    }
+}
+@media (min-width: 768px) {
+.main-container {
+    margin: 15vh 10%;
+}
+#memoji {
+}
+.about h1 {
+    font-size: 4.3em;
+}
+.about p {
+    font-size: 3em;
+}
+}
+
+@media (min-width: 1024px) {
+.main-container {
+    margin: 15vh 15%;
+}
+}
